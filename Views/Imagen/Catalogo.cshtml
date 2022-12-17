@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"]="Catalogo";
+}
+
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            @* INICIO TARJETA/CARD *@
+
+            @foreach (var item in ViewBag.Cat)
+            {
+                <div class="col">
+                <div class="card shadow-sm">
+                    <img src="@item.Image" class="card-img-top"/>
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Nombre</h5>
+                        <p class="card-text"><b>Nombre: </b>@item.Nombre</p>
+                        <p class="card-text"><b>Fuente: </b><a href="@item.Fuente">Clic aqui</a></p>
+                        <a href="#" class="btn btn-outline-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            }
+
+          @* FIN CARD *@
+
+        </div>
+    </div>
+</div>
