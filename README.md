@@ -1,4 +1,4 @@
-# Catalogo / Album 💻
+# Catálogo / Albúm 💻
 ## Description 📚
  Ejemplo simplificado de una vista con formato de catálogo o álbum a partir de los datos o registros obtenidos de una base de datos por medio de un procedimiento almacenado. 
 ## Installation 💡 
