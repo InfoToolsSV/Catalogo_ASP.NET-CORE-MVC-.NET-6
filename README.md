@@ -1,6 +1,12 @@
 # Catálogo / Albúm 💻
 ## Description 📚
  Ejemplo simplificado de una vista con formato de catálogo o álbum a partir de los datos o registros obtenidos de una base de datos por medio de un procedimiento almacenado. 
+ 
+ - Aplicación Web de ASP.NET Core MVC
+- Lenguaje de programación C♯
+- Base de datos en SQL Server
+- ADO.Net 
+ 
 ## Installation 💡 
  Para ejecutar este proyecto debes crear la base de datos con el Script (Catalogo.sql) y cambiar la cadena de conexión del archivo appsettings.json 
 ## App features 🪐
